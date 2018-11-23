@@ -15,7 +15,7 @@ data:  QuestionBase<any>[]
   constructor(private http: HttpClient) {}
 
   getData (): Observable<any> {
-    return this.http.get('http://my-json-server.typicode.com/richardscottncc/testground/schema').
+    return this.http.get('http://my-json-server.typicode.com/richardscottncc/testground/dropdownQuestion').
     pipe(map((result:QuestionBase<any>[]) => this.data = result))
 
   }
