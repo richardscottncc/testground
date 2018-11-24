@@ -11,11 +11,13 @@
       ]
     }
   ],
-  "TextboxQuestion": {
-    "key": "firstName",
-    "label": "First name",
-    "value": "Richard",
-    "required": true,
-    "order" : 1
-  }
+  "TextboxQuestion": [
+    {
+      "key": "firstName",
+      "label": "First name",
+      "value": "Richard",
+      "required": true,
+      "order": 1
+    }
+  ]
 }
